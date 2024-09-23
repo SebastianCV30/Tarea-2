@@ -1,0 +1,98 @@
+div.padding{
+    border: 5px solid black;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+#static{
+    position: static;
+    border: 2px solid blue;
+
+}
+#relative{
+    position: relative;
+    left: 20px;
+    border: 2px solid red;
+}
+#absolute{
+    position: absolute;
+    top: 450px;
+    left: 250px;
+    width: 350px;
+    height: 20px;
+    border: 2px solid rgb(71, 215, 23);
+}
+#fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #68ecbe;
+}
+p#block{
+    display: block;
+    border: 0.5px solid silver;
+}
+p#inline{
+    font-size: larger;
+    border:  0.5px solid black;
+    color: rgb(214, 29, 156);
+    display: inline;
+}
+p#inline-block{
+    font-size: larger;
+    border:  0.5px solid black;
+    color: rgb(214, 29, 156);
+    display: inline;
+}
+p#none{
+    display:  none;
+}
+div.overflow p{
+    border: 1px solid black;
+    width: 250px;
+    height: 46px;
+    background-color: #68ecbe;
+}
+p#ovisible{
+    overflow: visible;
+}
+p#hidden{
+    overflow: hidden;
+}
+p#scroll{
+    overflow: scroll;
+
+}
+p#auto{
+    overflow: auto;
+}
+p#visible{
+    visibility: visible;
+}
+p#hiddenv{
+    visibility: hidden;
+}
+img{
+    width: 100px;
+}
+img#utn{
+    position: relative;
+    z-index: 3;
+
+}
+img#ucr{
+    position: absolute;
+    z-index: 2;
+    left: 50px;
+}
+img#tec{
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+}
